@@ -10,3 +10,5 @@ There are a couple of macros BUILDING_MOD for the mods preprocessor, that just t
 The other is GENERATE_HASH_LIST which the main application uses because I put in a hacky way for it to spit out the hash code, without a certification it will produce only OS errors.
 
 It depends on openssl that I installed via vcpkg. it's written in C++20 because <filesystem>
+
+At the very end I included a way to bypass certification and prompt user to run "unsafe" plugins/mods. It's also supposed to look for asset only mods and bypass verification.
