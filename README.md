@@ -1,6 +1,10 @@
 # CppPluginModSystem
 A C++20 Plugin Mod System for Gamedev w/ cert authentication
 
+A Plugin Mod System Library Specifically Made for GameDesign but it's actually implementation agnostic, it really doesn't care how you use this and would probably work great in most cases.
+
+
+
 
 Basically I had to stop working on this because code certifications cost about $130 a year, so I have no way to test it further for now.
 
